@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FocusFlow</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+<nav>
+<div class="logo">✦ FocusFlow</div>
+
+<div class="menu">
+<div class="tab active">⏱ Timer</div>
+</div>
+</nav>
+
+<div class="center">
+
+<div class="badge" id="mode">Focus Session</div>
+
+<div class="circle">
+<div>
+<div class="time" id="timer">25:00</div>
+<div class="sub">minutes remaining</div>
+</div>
+</div>
+
+<div class="buttons">
+<button class="start" onclick="toggleTimer()">▶ Start</button>
+<button class="reset" onclick="resetTimer()">↻ Reset</button>
+</div>
+
+<div class="stats">
+
+<div class="card">
+<div class="icon">🎯</div>
+<div class="number" id="sessions">0</div>
+<div class="label">Sessions</div>
+</div>
+
+<div class="card">
+<div class="icon">🕒</div>
+<div class="number" id="minutes">0</div>
+<div class="label">Focus Min</div>
+</div>
+
+<div class="card">
+<div class="icon">🔥</div>
+<div class="number" id="streak">0</div>
+<div class="label">Day Streak</div>
+</div>
+
+</div>
+
+</div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
